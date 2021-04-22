@@ -2,67 +2,85 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>My Portfolio Website</title>
-
     <link rel="icon" href="img/title.png">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    
 
 </head>
 
 <body>
-    <a href="#" class="scrolltop" id="scroll-top">
-        <i class='bx bx-chevron-up scrolltop__icon'></i>
-    </a>
-    <!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark " id="ftco-navbar">
-        <div class="container">
-            <a class="navbar-brand" href="#">Nirupama Singh</a>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto  ">
-                    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="#about">About Me</a></li>
-                    <li class="nav-item active"><a class="nav-link " href="#projects ">Projects & Experience</a></li>
-                    <li class="nav-item active "><a class="nav-link " href="#review ">Review</a></li>
-                    <li class="nav-item active "><a class="nav-link " href="#contact ">Contact Me</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>-->
-    <section>
-        <header>
-            <a href="" class="logo">Nirupama Singh</a>
+    <section class="section1" id="home">
+        <div class="circle"></div>
+        <header class="header">
+            <a class="navbar-brand a" href="#">Nirupama Singh</a>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">What's new</a></li>
-                <li><a href="#">Contact</a></li>
+
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects & Experience</a></li>
+                <li><a href="#connect">Connect</a></li>
             </ul>
         </header>
-    </section>
-
-    <div class="row">
-        <div class="col-md-6">
-            <h1>Nirupama <br>Singh</h1>
-            <span>Full stack web developer</span>
-            <div>
-                <a href="./img/NirupamaSingh_Resume.pdf"><button class="btn btn-dark">Download cv</button></a>
+        <div class="content">
+            <div class="textBox">
+                <h2>Nirupama Singh</h2>
+                <p> Full Stack Web Developer</p>
+                <a href="./img/NirupamaSingh_Resume.pdf">Download CV</a>
+            </div>
+            <div class="imgBox">
+                <img src="./img/home.jpg" alt="" class="me">
             </div>
         </div>
-        <div class="col-md-6">
+    </section>
+    <section class="section2" id="about">
+
+        <div class="aboutme">
+            <h1>ABOUT ME</h1>
+            <h2>Hi,</h2>
+            <p>I am Nirupama Singh. 3rd year student at Amity University, Noida pursuing B.Tech(CSE). I was/am a active
+                member in communities and societies at my university. I am currently interning at Tech Vraksh. I make
+                Websites. And I still look for something new to learn everyday. </p>
 
         </div>
-    </div>
+        <div class="skills">
+            <h2>Skills</h2>
+            <form>
+                <div class="form-group">
+                    <label for="formControlRange">HTML</label>
+                    <input type="range" class="form-control-range" id="formControlRange1" min="1" max="100">
+                </div>
+                <div class="form-group">
+                    <label for="formControlRange">CSS</label>
+                    <input type="range" class="form-control-range" id="formControlRange2" min="1" max="100">
+                </div>
+                <div class="form-group">
+                    <label for="formControlRange">JS</label>
+                    <input type="range" class="form-control-range" id="formControlRange3" min="1" max="100">
+                </div>
+                <div class="form-group">
+                    <label for="formControlRange">Angular</label>
+                    <input type="range" class="form-control-range" id="formControlRange4" min="1" max="100">
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="section3" id="projects">
+        <h1>My Projects And Experience</h1>
+    </section>
+    <section class="section4" id="connect">
+        <h1>Connect with me</h1>
+        <form>
+           <div>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname">
+           </div>
+            <div>
+                <label for="fname">Last Name</label>
+                <input type="text" id="fname" name="fname">
+            </div>
+          </form>
+                
+    </section>
 
-
-
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
-    <script src="js/main.js "></script>
 </body>
 
 </html>
